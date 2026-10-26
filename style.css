@@ -1,0 +1,158 @@
+:root {
+  --bg: #ffffff;
+  --text: #1d1d1f;
+  --muted: #6e6e73;
+  --border: #d2d2d7;
+  --accent: #0066cc;
+  --card-bg: #f5f5f7;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #000000;
+    --text: #f5f5f7;
+    --muted: #86868b;
+    --border: #38383a;
+    --accent: #2997ff;
+    --card-bg: #1c1c1e;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.95rem;
+}
+
+nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a.active,
+nav a:hover {
+  color: var(--text);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 1.35rem;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p, li {
+  font-size: 1rem;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.meta {
+  color: var(--muted);
+  font-style: italic;
+  margin-top: -0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.faq-item {
+  background-color: var(--card-bg);
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.faq-item p {
+  margin: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin: 1.25rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--card-bg);
+  font-weight: 600;
+}
+
+.hero-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.hero-links a {
+  display: inline-block;
+  background-color: var(--card-bg);
+  color: var(--text);
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 500;
+  border: 1px solid var(--border);
+}
+
+.hero-links a:hover {
+  text-decoration: none;
+  border-color: var(--accent);
+}
