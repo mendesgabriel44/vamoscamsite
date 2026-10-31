@@ -1,7 +1,7 @@
 {
   "version": 2,
   "iterations": 20000,
-  "updated": "2026-10-31T10:42:17Z",
+  "updated": "2026-10-31T11:38:55Z",
   "clubs": [
     {
       "id": "corinthians",
@@ -20,6 +20,15 @@
       "activeUntil": null,
       "salt": "d0b2101104bcee0b22512c57",
       "hash": "C1eZnQOnKh/A3KUTSaySOH0MShJyu2F+QVl871DUik4="
+    },
+    {
+      "id": "outta_this_kitchen",
+      "name": "Outta This Kitchen",
+      "logo": "logos/outta_this_kitchen.png",
+      "logoVersion": "cc9fa39a",
+      "activeUntil": null,
+      "salt": "b698f3d816d720832a450e81",
+      "hash": "Yjw8/Z/WAO3fiBYVQ7EnRgZu3uLFsPfnFzhYfdA74fw="
     }
   ]
 }
