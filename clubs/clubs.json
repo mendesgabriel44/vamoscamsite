@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "iterations": 20000,
+  "updated": "2026-10-31T08:17:52Z",
+  "clubs": [
+    {
+      "id": "courtside_duo",
+      "name": "Courtside Duo",
+      "logo": "logos/courtside_duo.png",
+      "logoVersion": "c4f57ffc",
+      "activeUntil": null,
+      "salt": "d0b2101104bcee0b22512c57",
+      "hash": "C1eZnQOnKh/A3KUTSaySOH0MShJyu2F+QVl871DUik4="
+    }
+  ]
+}
