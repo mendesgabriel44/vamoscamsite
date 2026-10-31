@@ -1,8 +1,17 @@
 {
   "version": 2,
   "iterations": 20000,
-  "updated": "2026-10-31T08:17:52Z",
+  "updated": "2026-10-31T10:42:17Z",
   "clubs": [
+    {
+      "id": "corinthians",
+      "name": "Corinthians",
+      "logo": "logos/corinthians.png",
+      "logoVersion": "e79ef526",
+      "activeUntil": null,
+      "salt": "b657bd8f3f1b55b2c122d64c",
+      "hash": "WgqysoUhFsKwIsHnmPLPQzjxts0z50oieo/MfRzq/HI="
+    },
     {
       "id": "courtside_duo",
       "name": "Courtside Duo",
